@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Options</key>
+	<dict>
+		<key>--debug</key>
+		<string>Enable debug mode</string>
+		<key>--config</key>
+		<string>Location of client config files (default  /Users/luis/.docker)</string>
+	</dict>
+	<key>ManagmentComands</key>
+	<dict>
+		<key>config</key>
+		<string>Manage Docker configs</string>
+		<key>checkpoint</key>
+		<string>Manage checkpoints</string>
+	</dict>
+	<key>Commands</key>
+	<dict>
+		<key>wait</key>
+		<string>Block until one or more containers stop, then print their exit codes</string>
+		<key>version</key>
+		<string>Show the Docker version information</string>
+		<key>update</key>
+		<string>Update configuration of one or more containers</string>
+		<key>unpause</key>
+		<string>Unpause all processes within one or more containers</string>
+		<key>top</key>
+		<string>Display the running processes of a container</string>
+		<key>tag</key>
+		<string>Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE</string>
+		<key>stop</key>
+		<string>Stop one or more running containers</string>
+		<key>stats</key>
+		<string>Display a live stream of container(s) resource usage statistics</string>
+		<key>start</key>
+		<string>Start one or more stopped containers</string>
+		<key>search</key>
+		<string>Search the Docker Hub for images</string>
+		<key>save</key>
+		<string>Save one or more images to a tar archive (streamed to STDOUT by default)</string>
+		<key>run</key>
+		<string>Run a command in a new container</string>
+		<key>rmi</key>
+		<string>Remove one or more images</string>
+		<key>rm</key>
+		<string>Remove one or more containers</string>
+		<key>restart</key>
+		<string>Restart one or more containers</string>
+		<key>rename</key>
+		<string>Rename a container</string>
+		<key>push</key>
+		<string>Push an image or a repository to a registry</string>
+		<key>pull</key>
+		<string>Pull an image or a repository from a registry</string>
+		<key>ps</key>
+		<string>List containers</string>
+		<key>port</key>
+		<string>List port mappings or a specific mapping for the container</string>
+		<key>pause</key>
+		<string>Pause all processes within one or more containers</string>
+		<key>logs</key>
+		<string>Fetch the logs of a container</string>
+		<key>logout</key>
+		<string>Log out from a Docker registry</string>
+		<key>login</key>
+		<string>Log in to a Docker registry</string>
+		<key>load</key>
+		<string>Load an image from a tar archive or STDIN</string>
+		<key>kill</key>
+		<string>Kill one or more running containers</string>
+		<key>inspect</key>
+		<string>Return low-level information on Docker objects</string>
+		<key>info</key>
+		<string>Display system-wide information</string>
+		<key>import</key>
+		<string>Import the contents from a tarball to create a filesystem image</string>
+		<key>images</key>
+		<string>List images</string>
+		<key>history</key>
+		<string>Show the history of an image</string>
+		<key>export</key>
+		<string>Export a container&apos;s filesystem as a tar archive</string>
+		<key>exec</key>
+		<string>Run a command in a running container</string>
+		<key>events</key>
+		<string>Get real time events from the server</string>
+		<key>diff</key>
+		<string>Inspect changes to files or directories on a container&apos;s filesystem</string>
+		<key>deploy</key>
+		<string>Deploy a new stack or update an existing stack</string>
+		<key>create</key>
+		<string>Create a new container</string>
+		<key>cp</key>
+		<string>Copy files/folders between a container and the local filesystem</string>
+		<key>commit</key>
+		<string>Create a new image from a container&apos;s changes</string>
+		<key>build</key>
+		<string>Build an image from a Dockerfile</string>
+		<key>attach</key>
+		<string>Attach local standard input, output, and error streams to a running container</string>
+	</dict>
+</dict>
+</plist>
